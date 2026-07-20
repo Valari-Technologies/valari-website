@@ -1,26 +1,91 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  color-scheme: light;
+  /* Brand Core Color Constants */
+  --color-primary-blue: #0b5ed7;
+  --color-secondary-blue: #2563eb;
+  --color-accent-gold: #f4c542;
+  
+  /* Semantic Light Mode Colors */
+  --background: #f8fafc;
+  --section-primary: #ffffff;
+  --section-alt: #f5f7fb;
+  --foreground: #111827;
+  --surface: #ffffff;
+  --border: #e5e7eb;
+  
+  --primary: var(--color-primary-blue);
+  --secondary: var(--color-secondary-blue);
+  --accent: var(--color-accent-gold);
+  --success: #10b981;
+  --warning: #f59e0b;
+  --error: #ef4444;
+  
+  --text-primary: var(--foreground);
+  --text-secondary: #4b5563;
+  --text-muted: #6b7280;
 }
 
-@theme inline {
+@theme {
+  /* CSS Variable Mapping to Tailwind Utilities */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --color-surface: var(--surface);
+  --color-border: var(--border);
+  
+  --color-section-primary: var(--section-primary);
+  --color-section-alt: var(--section-alt);
+  
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-error: var(--error);
+  
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* Radius Tokens */
+  --radius-btn: 8px;
+  --radius-card: 16px; /* Updated to 16px-20px range */
+  --radius-img: 16px;
+  --radius-input: 8px;
+
+  /* Custom Elevation/Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(15, 23, 42, 0.04);
+  --shadow-md: 0 4px 6px -1px rgba(15, 23, 42, 0.04), 0 2px 4px -2px rgba(15, 23, 42, 0.04);
+  --shadow-lg: 0 10px 15px -3px rgba(15, 23, 42, 0.04), 0 4px 6px -4px rgba(15, 23, 42, 0.04);
+  --shadow-hover: 0 20px 25px -5px rgba(15, 23, 42, 0.06), 0 8px 10px -6px rgba(15, 23, 42, 0.06);
+
+  /* Font Families */
+  --font-sans: var(--font-geist-sans), Inter, system-ui, -apple-system, sans-serif;
+  --font-mono: var(--font-geist-mono), monospace;
 }
 
 body {
-  background: var(--background);
+  background: radial-gradient(
+    circle at top right,
+    rgba(11, 94, 215, 0.08),
+    transparent 35%
+  ),
+  radial-gradient(
+    circle at bottom left,
+    rgba(244, 197, 66, 0.06),
+    transparent 30%
+  ),
+  var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  min-height: 100vh;
 }
+
+/* Hide Next.js Turbopack developer indicator watermark badge in local development */
+nextjs-portal,
+#nextjs-portal,
+[data-nextjs-dialog-overlay] {
+  display: none !important;
+}
+
