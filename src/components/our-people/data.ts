@@ -111,17 +111,6 @@ export const TEAM_MEMBERS: TeamMember[] = [
     imageSrc: "/images/thoufiq-photo.jpg",
   },
   {
-    name: "Vijay",
-    designation: "Digital Marketer",
-    department: "Digital Marketing",
-    experience: "2+ Years",
-    skills: ["Growth Marketing", "Google Analytics", "SaaS Funnels"],
-    bio: "Architects scalable traffic acquisition metrics and high-converting client conversion pipelines.",
-    linkedin: "https://linkedin.com",
-    email: "arjun@valari.co.in",
-    imageSrc: "/images/thoufiq-photo.jpg",
-  },
-  {
     name: "Harish",
     designation: "Digital Marketer",
     department: "Digital Marketing",
