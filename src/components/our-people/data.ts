@@ -20,7 +20,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     bio: "Visionary leader driving digital transformation and software excellence at Valari Technologies.",
     linkedin: "https://linkedin.com",
     email: "senthil@valari.co.in",
-    imageSrc: "/images/thoufiq-photo.jpg",
+    imageSrc: "/images/",
   },
   // {
   //   name: "Logesh",
@@ -42,7 +42,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     bio: "Bridges corporate business requirements with agile software execution roadmaps.",
     linkedin: "https://linkedin.com",
     email: "karthik@valari.co.in",
-    imageSrc: "/images/thoufiq-photo.jpg",
+    imageSrc: "/images/",
   },
   {
     name: "Mayura Kannan",
@@ -56,7 +56,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     imageSrc: "/images/kannan-photo.jpg",
   },
   {
-    name: "Abuthahir S",
+    name: "Mohamed Abuthahir S",
     designation: "Frontend Developer",
     department: "Developer",
     experience: "1+ Years",
@@ -64,7 +64,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     bio: "Pioneers premium, highly interactive client-side design implementations and component modularity.",
     linkedin: "https://linkedin.com",
     email: "divya@valari.co.in",
-    imageSrc: "/images/thoufiq-photo.jpg",
+    imageSrc: "/images/",
   },
    {
     name: "Mohammed Dhanais M S",
@@ -89,7 +89,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     imageSrc: "/images/muthu-subash-photo.jpg",
   },
    {
-    name: "Mohamed Thoufiq S",
+    name: "Mohamed Thoufiq A",
     designation: "Backend Developer",
     department: "Developer",
     experience: "1+ Years",
@@ -108,10 +108,10 @@ export const TEAM_MEMBERS: TeamMember[] = [
     bio: "Curates enterprise style guides, glassmorphism systems, and premium interface aesthetics.",
     linkedin: "https://linkedin.com",
     email: "meera@valari.co.in",
-    imageSrc: "/images/thoufiq-photo.jpg",
+    imageSrc: "/images/",
   },
   {
-    name: "Harish",
+    name: "Harish Bapu G",
     designation: "Digital Marketer",
     department: "Digital Marketing",
     experience: "2+ Years",
