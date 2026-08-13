@@ -34,7 +34,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
   //   imageSrc: "/images/thoufiq-photo.jpg",
   // },
   {
-    name: "Ajay",
+    name: "Ajay N",
     designation: "Digital Marketing Consultant",
     department: "Consultant",
     experience: "10+ Years",
@@ -56,7 +56,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     imageSrc: "/images/kannan-photo.jpg",
   },
   {
-    name: "Mohamed Abuthahir",
+    name: "Mohamed Abuthahir S",
     designation: "Frontend Developer",
     department: "Developer",
     experience: "1+ Years",
@@ -100,7 +100,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     imageSrc: "/images/thoufiq-photo.jpg",
   },
   {
-    name: "Harish Babu",
+    name: "Harish Babu G",
     designation: "Digital Marketer",
     department: "Digital Marketing",
     experience: "2+ Years",
