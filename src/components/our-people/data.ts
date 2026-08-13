@@ -20,7 +20,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     bio: "Visionary leader driving digital transformation and software excellence at Valari Technologies.",
     linkedin: "https://linkedin.com",
     email: "senthil@valari.co.in",
-    imageSrc: "/images/",
+    imageSrc: "/images/prakash-photo.jpg",
   },
   // {
   //   name: "Logesh",
@@ -34,7 +34,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
   //   imageSrc: "/images/thoufiq-photo.jpg",
   // },
   {
-    name: "Ajay",
+    name: "Ajay N",
     designation: "Digital Marketing Consultant",
     department: "Consultant",
     experience: "10+ Years",
@@ -42,7 +42,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     bio: "Bridges corporate business requirements with agile software execution roadmaps.",
     linkedin: "https://linkedin.com",
     email: "karthik@valari.co.in",
-    imageSrc: "/images/",
+    imageSrc: "/images/ajay-photo.jpg",
   },
   {
     name: "Mayura Kannan",
@@ -64,7 +64,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     bio: "Pioneers premium, highly interactive client-side design implementations and component modularity.",
     linkedin: "https://linkedin.com",
     email: "divya@valari.co.in",
-    imageSrc: "/images/",
+    imageSrc: "/images/abu-photo.jpg",
   },
    {
     name: "Mohammed Dhanais M S",
@@ -100,18 +100,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     imageSrc: "/images/thoufiq-photo.jpg",
   },
   {
-    name: "Karishma",
-    designation: "UI/UX Designer",
-    department: "UI/UX Designer",
-    experience: "7+ Years",
-    skills: ["Figma", "Design Systems", "Prototyping", "User Research"],
-    bio: "Curates enterprise style guides, glassmorphism systems, and premium interface aesthetics.",
-    linkedin: "https://linkedin.com",
-    email: "meera@valari.co.in",
-    imageSrc: "/images/",
-  },
-  {
-    name: "Harish Bapu G",
+    name: "Harish Babu G",
     designation: "Digital Marketer",
     department: "Digital Marketing",
     experience: "2+ Years",
